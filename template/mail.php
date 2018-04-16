@@ -4,7 +4,7 @@ $email        = strip_tags( trim( $_POST['email'] ) );
 $phone        = strip_tags( trim( $_POST['phone'] ) );
 $message_text = strip_tags( trim( $_POST['message'] ) );
 
-$to      = 'contact@cugambit.com'; /* Your email address */
+$to      = 'info@blockchainatcolumbia.com'; /* Your email address */
 $subject = 'From Contact Form';
 $message = "From: $name \nEmail: $email \nPhone $phone \nMessage: $message_text";
 $headers = 'From: http://codepure.co.za' . "\r\n";
